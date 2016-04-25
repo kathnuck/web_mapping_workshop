@@ -29,5 +29,5 @@ featurelayer.on('ready', function(){
       "weight": .5,
       "opacity": 0.65
     })
-    map.fitBounds(featurelayer.gitBounds());
+    map.fitBounds(featurelayer.getBounds());
 })
