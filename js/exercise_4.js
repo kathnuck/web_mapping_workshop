@@ -26,7 +26,7 @@ featurelayer.on('ready', function(){
   	this.setStyle({
     "color":"6583BF",
       "fillcolor": "6583BF",
-      "weight": .5
+      "weight": .5,
       "opacity": 0.65
     })
     map.fitBounds(featureLayer.gitBounds());
