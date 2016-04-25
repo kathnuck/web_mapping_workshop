@@ -29,11 +29,11 @@ featureLayer.on('ready', function(){
       "weight": .5,
       "opacity": 0.65
     })
-    map.fitBounds(featurLayer.getBounds());
+    map.fitBounds(featureLayer.getBounds());
 })
 
 featureLayer.on('ready', function(){
-  this.eachLayer(layer){})
+  this.eachLayer(layer){
   	layer.bindPopup('Welcome to ' + layer.feature.properties.LABEL);
 	})
 })
