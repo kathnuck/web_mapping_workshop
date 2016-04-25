@@ -29,7 +29,7 @@ featureLayer.on('ready', function(){
       "weight": .5,
       "opacity": 0.65
     })
-    map.fitBounds(featurelayer.getBounds());
+    map.fitBounds(featurLayer.getBounds());
 })
 
 featureLayer.on('ready', function(){
